@@ -5,13 +5,13 @@ inputs:
   token:
     description: 'GITHUB_TOKEN or a Repo scoped PAT'
     required: true
-    default: ${{ github.token }}
+    default: $\{\{ github.token \}\}
 
 runs:
   using: 'docker'
   image: 'Dockerfile'
   args:
-    - ${{ inputs.token }}
+    - $\{\{ inputs.token \}\}
 branding:
   icon: {{ cookiecutter.action_icon }}
   color: {{ cookiecutter.action_color }}
