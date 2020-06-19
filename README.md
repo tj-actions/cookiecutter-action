@@ -22,7 +22,7 @@ email [jtonye@ymail.com]:
 github_username [Enter the github user/organization name (e.g 'test')]: tj-actions
 project_name [Enter the project name (e.g 'test-project')]: test-project
 project_slug [test-project]: 
-project_short_description [Enter a short description (e.g 'Test Description')]:  Test Description
+project_short_description [Enter a short description (e.g 'Test Description')]: Test Description
 action_name [Enter a descriptive action name (e.g 'My Test Action']: My Test Action
 version [Enter the initial version (e.g: 'v1')]: v1
 action_icon [check-square]: 
