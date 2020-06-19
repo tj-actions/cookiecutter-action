@@ -1,7 +1,7 @@
 test-project
 ------------
 
- Test Description
+Test Description
 
 ```yaml
 ...

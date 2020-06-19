@@ -1,5 +1,5 @@
 name: My Test Action
-description:  Test Description
+description: Test Description
 author: tj-actions
 inputs:
   token:
