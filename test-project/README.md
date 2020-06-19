@@ -11,7 +11,7 @@ test-project
         uses: tj-actions/test-project@v1
 ```
 
-* Free software: MIT license
+* Free software: [MIT license](LICENSE)
 
 Features
 --------

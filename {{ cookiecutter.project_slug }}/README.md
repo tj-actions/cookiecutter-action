@@ -11,7 +11,7 @@
         uses: {{ cookiecutter.github_username }}/{{ cookiecutter.project_name }}@{{ cookiecutter.version|default("master", true) }}
 ```
 
-* Free software: {{ cookiecutter.open_source_license }}
+* Free software: {{"["}}{{ cookiecutter.open_source_license }}{{"]"}}(LICENSE)
 
 Features
 --------
