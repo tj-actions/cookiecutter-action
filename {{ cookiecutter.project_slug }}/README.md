@@ -8,7 +8,7 @@
     steps:
       - uses: actions/checkout@v2
       - name: {{ cookiecutter.action_name }}
-        uses: {% if cookiecutter.org_name %}{{ cookiecutter.org_name }}/{% endif %}{{ cookiecutter.project_name }}@master
+        uses: {% if cookiecutter.org_name %}{{ cookiecutter.org_name }}/{% endif %}{{ cookiecutter.project_name }}@{{ cookiecutter.version|default("master", true) }}
 ```
 
 * Free software: {{ cookiecutter.open_source_license }}
