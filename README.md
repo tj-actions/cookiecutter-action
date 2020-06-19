@@ -37,4 +37,4 @@ Select open_source_license:
 Choose from 1, 2, 3, 4, 5, 6 [1]: 1
 ```
 
-This generates a [**test-project**](test-project/README.md)
+This generates a [**test-project**](test-project)
