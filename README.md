@@ -1,4 +1,4 @@
-# action-cookiecutter
+# cookiecutter-action
 Cookiecutter for github actions
 
 # Usage
