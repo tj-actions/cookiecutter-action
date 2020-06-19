@@ -1,13 +1,12 @@
 {
   "full_name": "Tonye Jack",
   "email": "jtonye@ymail.com",
-  "github_username": "jackton1",
+  "github_username": "Enter the github user/organization name",
   "project_name": "Enter the project name",
   "project_slug": "{{ cookiecutter.project_name.lower().replace(' ', '-') }}",
   "project_short_description": "Enter a short description",
   "action_name": "Enter a descriptive action name",
-  "org_name": "Enter the github organization name",
-  "version": "Enter the initial version",
+  "version": "Enter the initial version e.g (v1)",
   "action_icon": "check-square",
   "action_color": "white",
   "open_source_license": ["MIT license", "BSD license", "ISC license", "Apache Software License 2.0", "GNU General Public License v3", "Not open source"]
