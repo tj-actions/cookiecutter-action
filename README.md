@@ -1,5 +1,5 @@
 # cookiecutter-action
-Cookiecutter for github actions
+[Cookiecutter](https://github.com/cookiecutter/cookiecutter) for github actions
 
 # Usage
 
