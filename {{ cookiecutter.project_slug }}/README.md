@@ -16,7 +16,7 @@
 
 |   Input       |    type    |  required     |  default             | 
 |:-------------:|:-----------:|:-------------:|:---------------------:|
-| token         |  `string`   |    `false`    | `${{ github.token }}` |
+| token         |  `string`   |    `false`    | `{{ "${{ github.token }}" }}` |
 
 
 
