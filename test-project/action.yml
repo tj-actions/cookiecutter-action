@@ -13,5 +13,5 @@ runs:
   args:
     - ${{ inputs.token }}
 branding:
-  icon: check-square
-  color: white
+  icon: hard-drive
+  color: green

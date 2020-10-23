@@ -11,6 +11,15 @@ Test Description
         uses: tj-actions/test-project@v1
 ```
 
+
+## Inputs
+
+|   Input       |    type    |  required     |  default             | 
+|:-------------:|:-----------:|:-------------:|:---------------------:|
+| token         |  `string`   |    `false`    | `${{ github.token }}` |
+
+
+
 * Free software: [MIT license](LICENSE)
 
 Features
@@ -22,7 +31,7 @@ Features
 Credits
 -------
 
-This package was created with Cookiecutter.
+This package was created with [Cookiecutter](https://github.com/cookiecutter/cookiecutter).
 
 
 
