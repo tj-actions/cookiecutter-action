@@ -25,8 +25,8 @@ project_slug [test-project]:
 project_short_description [Enter a short description (e.g 'Test Description')]: Test Description
 action_name [Enter a descriptive action name (e.g 'My Test Action']: My Test Action
 version [Enter the initial version (e.g: 'v1')]: v1
-action_icon [check-square]: 
-action_color [white]: 
+action_icon [check-square]: hard-drive
+action_color [white]: green
 Select open_source_license:
 1 - MIT license
 2 - BSD license
