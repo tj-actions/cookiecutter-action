@@ -11,7 +11,7 @@ on:
 jobs:
   test:
     runs-on: ubuntu-latest
-    name: Test {{ cookiecutter.action_name }}
+    name: Test {{ cookiecutter.project_name }}
     steps:
       - name: Checkout
         uses: actions/checkout@v2

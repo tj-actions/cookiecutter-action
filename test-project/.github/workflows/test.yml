@@ -11,7 +11,7 @@ on:
 jobs:
   test:
     runs-on: ubuntu-latest
-    name: Test verify-changed-files
+    name: Test test-project
     steps:
       - name: Checkout
         uses: actions/checkout@v2
