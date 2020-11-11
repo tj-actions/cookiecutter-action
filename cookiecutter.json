@@ -5,6 +5,7 @@
   "project_name": "Enter the project name (e.g 'test-project')",
   "project_slug": "{{ cookiecutter.project_name.lower().replace(' ', '-') }}",
   "project_short_description": "Enter a short description (e.g 'Test Description')",
+  "default_branch": "master",
   "action_name": "Enter a descriptive action name (e.g 'My Test Action'",
   "version": "Enter the initial version (e.g: 'v1')",
   "action_icon": "check-square",
