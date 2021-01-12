@@ -23,6 +23,7 @@ github_username [Enter the github user/organization name (e.g 'test')]: tj-actio
 project_name [Enter the project name (e.g 'test-project')]: test-project
 project_slug [test-project]: 
 project_short_description [Enter a short description (e.g 'Test Description')]: Test Description
+default_branch [master]: main
 action_name [Enter a descriptive action name (e.g 'My Test Action']: My Test Action
 version [Enter the initial version (e.g: 'v1')]: v1
 action_icon [check-square]: hard-drive
