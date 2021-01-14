@@ -9,6 +9,6 @@
   "action_name": "Enter a descriptive action name (e.g 'My Test Action'",
   "version": "Enter the initial version (e.g: 'v1')",
   "action_icon": "check-square",
-  "action_color": "white",
+  "action_color": ["white", "yellow", "blue", "green", "orange", "red", "purple", "gray-dark"],
   "open_source_license": ["MIT license", "BSD license", "ISC license", "Apache Software License 2.0", "GNU General Public License v3", "Not open source"]
 }
