@@ -27,7 +27,16 @@ default_branch [master]: main
 action_name [Enter a descriptive action name (e.g 'My Test Action']: My Test Action
 version [Enter the initial version (e.g: 'v1')]: v1
 action_icon [check-square]: hard-drive
-action_color [white]: green
+Select action_color:
+1 - white
+2 - yellow
+3 - blue
+4 - green
+5 - orange
+6 - red
+7 - purple
+8 - gray-dark
+Choose from 1, 2, 3, 4, 5, 6, 7, 8 (1, 2, 3, 4, 5, 6, 7, 8) [1]:
 Select open_source_license:
 1 - MIT license
 2 - BSD license
