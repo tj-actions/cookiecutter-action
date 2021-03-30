@@ -16,4 +16,4 @@ jobs:
         github.actor == 'renovate[bot]' ||
         github.actor == 'renovate'
       with:
-        github-token: ${{ secrets.PAT_TOKEN }}
+        github-token: {{ '${{ secrets.PAT_TOKEN }}' }}
