@@ -33,7 +33,7 @@ jobs:
         run:
           cookiecutter --config-file=test-config.yml --no-input -f .
       - name: Verify Changed files
-        uses: tj-actions/verify-changed-files@v5.5
+        uses: tj-actions/verify-changed-files@v5.7
         id: changed_files
         with:
           files: |
