@@ -1,0 +1,55 @@
+name: CI
+
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+    branches:
+      - main
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    name: Test check-manifest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v2
+      - name: Set up Python 3.6
+        uses: actions/setup-python@v2
+        with:
+          python-version: '3.6'
+      - uses: actions/cache@v2
+        id: pip-cache
+        with:
+          path: ~/.cache/pip
+          key: ${{ runner.os }}-pip-
+          restore-keys: |
+            ${{ runner.os }}-pip-
+      - name: Install collectstatic
+        run: |
+          pip install collectstatic
+      - name: Run test
+        run:
+          cookiecutter --config-file=test-config.yml --no-input -f .
+      - name: Verify Changed files
+        uses: tj-actions/verify-changed-files@v5.5
+        id: changed_files
+        with:
+          files: |
+            test-project
+      - name: Perform action when test_directory changes
+        if: contains(steps.changed_files.outputs.changed_files, 'test-project')
+        run: |
+          echo "test-project has uncommited changes."
+          exit 1
+      - name: Create Pull Request
+        if: failure()
+        uses: peter-evans/create-pull-request@v3
+        with:
+          base: "main"
+          title: "Updated test-project"
+          branch: "chore/update-test-project"
+          commit-message: "Updated test-project"
+          body: "Updated test-project"
+          token: ${{ secrets.PAT_TOKEN }}

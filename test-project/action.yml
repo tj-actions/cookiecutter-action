@@ -14,4 +14,4 @@ runs:
     - ${{ inputs.token }}
 branding:
   icon: hard-drive
-  color: green
+  color: white

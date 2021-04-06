@@ -1,0 +1,14 @@
+default_context:
+    full_name: "Tonye Jack"
+    email: "jtonye@ymail.com"
+    github_username: "tj-actions"
+    project_name: "test-project"
+    project_slug: "test-project"
+    project_short_description: "Test Description"
+    default_branch: "main"
+    action_name: "My Test Action"
+    version: "v1"
+    action_icon: "hard-drive"
+    action_color: 1
+    open_source_license: 1
+cookiecutters_dir: "./test-project"
