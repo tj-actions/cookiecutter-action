@@ -13,7 +13,7 @@ jobs:
         uses: tj-actions/sync-release-version@v8
         id: sync-release-version
         with:
-          pattern: '{{ cookiecutter.github_username }}/{{ cookiecutter.project_name }}@'
+          pattern: '{{ "${{ github.repository }}@" }}'
           paths: |
             README.md
       - name: Generate CHANGELOG
