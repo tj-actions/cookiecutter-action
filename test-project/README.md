@@ -1,4 +1,4 @@
-test-projec
+test-project
 ------------
 
 Test Description
