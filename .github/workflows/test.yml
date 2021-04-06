@@ -26,9 +26,9 @@ jobs:
           key: ${{ runner.os }}-pip-
           restore-keys: |
             ${{ runner.os }}-pip-
-      - name: Install collectstatic
+      - name: Install cookiecutter
         run: |
-          pip install collectstatic
+          pip install cookiecutter
       - name: Run test
         run:
           cookiecutter --config-file=test-config.yml --no-input -f .
