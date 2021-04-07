@@ -1,3 +1,5 @@
+[![CI](https://github.com/tj-actions/cookiecutter-action/actions/workflows/test.yml/badge.svg)](https://github.com/tj-actions/cookiecutter-action/actions/workflows/test.yml)
+
 # cookiecutter-action
 [Cookiecutter](https://github.com/cookiecutter/cookiecutter) for github actions
 
