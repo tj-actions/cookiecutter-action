@@ -31,9 +31,7 @@ Features
 Credits
 -------
 
-This package was created with [Cookiecutter](https://github.com/cookiecutter/cookiecutter).
-
-
+This package was created with [Cookiecutter](https://github.com/cookiecutter/cookiecutter) using [cookiecutter-action](https://github.com/tj-actions/cookiecutter-action)
 
 Report Bugs
 -----------
