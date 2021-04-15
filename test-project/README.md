@@ -1,3 +1,7 @@
+[![CI](https://github.com/tj-actions/test-project/workflows/CI/badge.svg)](https://github.com/tj-actions/test-project/actions?query=workflow%3ACI)
+[![Update release version.](https://github.com/tj-actions/test-project/workflows/Update%20release%20version./badge.svg)](https://github.com/tj-actions/test-project/actions?query=workflow%3A%22Update+release+version.%22) 
+<a href="https://github.com/search?q=tj-actions+test-project+path%3A.github%2Fworkflows+language%3AYAML&type=code" target="_blank" title="Public workflows that use this action."><img src="https://img.shields.io/endpoint?url=https%3A%2F%2Fapi-git-master.endbug.vercel.app%2Fapi%2Fgithub-actions%2Fused-by%3Faction%3Dtj-actions%2Ftest-project%26badge%3Dtrue" alt="Public workflows that use this action."></a>
+
 test-project
 ------------
 
