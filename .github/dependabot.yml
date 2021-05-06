@@ -1,0 +1,12 @@
+version: 2
+updates:
+- package-ecosystem: docker
+  directory: "/{{ cookiecutter.project_slug }}"
+  schedule:
+    interval: daily
+  open-pull-requests-limit: 10
+- package-ecosystem: docker
+  directory: "/test-project"
+  schedule:
+    interval: daily
+  open-pull-requests-limit: 10
