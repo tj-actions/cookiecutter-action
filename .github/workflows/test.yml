@@ -15,6 +15,9 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v2
+      - name: Get branch names
+        id: branch-name
+        uses: tj-actions/branch-names@v4.2
       - name: Set up Python 3.6
         uses: actions/setup-python@v2
         with:
@@ -35,16 +38,17 @@ jobs:
       - name: Verify Changed files
         uses: tj-actions/verify-changed-files@v6.2
         id: changed_files
+        if: steps.branch-name.outputs.is_default == 'true'
         with:
           files: |
             test-project
       - name: Perform action when test_directory changes
-        if: contains(steps.changed_files.outputs.changed_files, 'test-project')
+        if: "steps.branch-name.outputs.is_default == 'true' && contains(steps.changed_files.outputs.changed_files, 'test-project')"
         run: |
           echo "test-project has uncommited changes."
           exit 1
       - name: Create Pull Request
-        if: failure()
+        if: steps.branch-name.outputs.is_default == 'true' && failure()
         uses: peter-evans/create-pull-request@v3
         with:
           base: "main"
