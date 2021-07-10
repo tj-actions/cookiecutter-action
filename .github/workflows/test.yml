@@ -33,7 +33,7 @@ jobs:
         run: |
           pip install cookiecutter
       - name: Run test
-        run:
+        run: |
           rm -rf test-project
           cookiecutter --config-file=test-config.yml --no-input -f .
       - name: Verify Changed files
