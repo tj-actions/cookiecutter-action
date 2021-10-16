@@ -10,3 +10,13 @@ updates:
   schedule:
     interval: daily
   open-pull-requests-limit: 10
+- package-ecosystem: github-actions
+  directory: "/{{ cookiecutter.project_slug }}"
+  schedule:
+    interval: daily
+  open-pull-requests-limit: 10
+- package-ecosystem: github-actions
+  directory: "/test-project"
+  schedule:
+    interval: daily
+  open-pull-requests-limit: 10
