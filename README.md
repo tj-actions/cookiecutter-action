@@ -4,11 +4,13 @@
 
 [Cookiecutter](https://github.com/cookiecutter/cookiecutter) for github actions
 
-# Usage
+# Installation
 
 ```shell script
 $ pip install "cookiecutter>=1.7.0"
 ```
+
+# Usage
 
 ```shell script
 $ cookiecutter https://github.com/tj-actions/cookiecutter-action.git
