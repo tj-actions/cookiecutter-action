@@ -14,7 +14,7 @@ jobs:
     name: Test {{ cookiecutter.project_name }}
     steps:
       - name: Checkout
-        uses: actions/checkout@v2
+        uses: actions/checkout@v3
       - name: shellcheck
         uses: reviewdog/action-shellcheck@v1
       - name: Run {{ cookiecutter.project_name }}
