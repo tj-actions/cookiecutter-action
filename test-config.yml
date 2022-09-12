@@ -8,7 +8,7 @@ default_context:
     default_branch: "main"
     action_name: "My Test Action"
     version: "v1"
-    action_icon: "hard-drive"
+    branding_icon: "hard-drive"
     action_color: 1
     open_source_license: 1
 cookiecutters_dir: "./test-project"
