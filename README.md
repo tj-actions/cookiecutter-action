@@ -32,7 +32,7 @@ project_short_description [Enter a short description (e.g 'Test Description')]: 
 default_branch [master]: main
 action_name [Enter a descriptive action name (e.g 'My Test Action']: My Test Action
 version [Enter the initial version (e.g: 'v1')]: v1
-action_icon [check-square]: hard-drive
+branding_icon [check-square]: hard-drive
 Select action_color:
 1 - white
 2 - yellow

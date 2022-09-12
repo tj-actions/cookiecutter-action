@@ -13,5 +13,5 @@ runs:
   args:
     - {{ "${{ inputs.token }}" }}
 branding:
-  icon: {{ cookiecutter.action_icon }}
+  icon: {{ cookiecutter.branding_icon }}
   color: {{ cookiecutter.action_color }}
