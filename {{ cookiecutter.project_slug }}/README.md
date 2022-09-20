@@ -1,6 +1,6 @@
 [![CI](https://github.com/{{ cookiecutter.github_username }}/{{ cookiecutter.project_name }}/workflows/CI/badge.svg)](https://github.com/{{ cookiecutter.github_username }}/{{ cookiecutter.project_name }}/actions?query=workflow%3ACI)
 [![Update release version.](https://github.com/{{ cookiecutter.github_username }}/{{ cookiecutter.project_name }}/workflows/Update%20release%20version./badge.svg)](https://github.com/{{ cookiecutter.github_username }}/{{ cookiecutter.project_name }}/actions?query=workflow%3A%22Update+release+version.%22)
-[![Public workflows that use this action.](https://img.shields.io/endpoint?url=https%3A%2F%2Fapi-tj-actions1.vercel.app%2Fapi%2Fgithub-actions%2Fused-by%3Faction%3D{{ cookiecutter.github_username }}%2F{{ cookiecutter.project_name }}%26badge%3Dtrue)](https://github.com/search?o=desc&q={{ cookiecutter.github_username }}+{{ cookiecutter.project_name }}+path%3A.github%2Fworkflows+language%3AYAML&s=&type=Code)
+[![Public workflows that use this action.](https://img.shields.io/endpoint?url=https%3A%2F%2Fused-by.vercel.app%2Fapi%2Fgithub-actions%2Fused-by%3Faction%3D{{ cookiecutter.github_username }}%2F{{ cookiecutter.project_name }}%26badge%3Dtrue)](https://github.com/search?o=desc&q={{ cookiecutter.github_username }}+{{ cookiecutter.project_name }}+path%3A.github%2Fworkflows+language%3AYAML&s=&type=Code)
 
 
 
