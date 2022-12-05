@@ -53,6 +53,7 @@ jobs:
         uses: peter-evans/create-pull-request@v4
         with:
           base: "main"
+          labels: "merge when passing"
           title: "Updated test-project"
           branch: "chore/update-test-project"
           commit-message: "Updated test-project"
