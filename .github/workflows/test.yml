@@ -37,7 +37,7 @@ jobs:
           rm -rf test-project
           cookiecutter --config-file=test-config.yml --no-input .
       - name: Verify Changed files
-        uses: tj-actions/verify-changed-files@v12.0
+        uses: tj-actions/verify-changed-files@v13.1
         id: changed_files
         if: steps.branch-name.outputs.is_default == 'true'
         with:
