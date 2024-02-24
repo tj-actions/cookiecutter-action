@@ -12,7 +12,7 @@ Test Description
 ```yaml
 ...
     steps:
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@v4
       - name: My Test Action
         uses: tj-actions/test-project@v1
 ```

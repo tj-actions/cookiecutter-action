@@ -12,7 +12,7 @@
 ```yaml
 ...
     steps:
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@v4
       - name: {{ cookiecutter.action_name }}
         uses: {{ cookiecutter.github_username }}/{{ cookiecutter.project_name }}@{{ cookiecutter.version|default("master", true) }}
 ```
