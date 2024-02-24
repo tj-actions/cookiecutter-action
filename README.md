@@ -1,4 +1,4 @@
-[![Codacy Badge](https://api.codacy.com/project/badge/Grade/1027cd78070341e3880e27778f8618d0)](https://app.codacy.com/gh/tj-actions/cookiecutter-action?utm_source=github.com\&utm_medium=referral\&utm_content=tj-actions/cookiecutter-action\&utm_campaign=Badge_Grade_Settings)
+[![Codacy Badge](https://app.codacy.com/project/badge/Grade/936bc00f3b854bcca04dee87c68fff21)](https://app.codacy.com/gh/tj-actions/cookiecutter-action/dashboard?utm_source=gh&utm_medium=referral&utm_content=&utm_campaign=Badge_grade)
 [![CI](https://github.com/tj-actions/cookiecutter-action/actions/workflows/test.yml/badge.svg)](https://github.com/tj-actions/cookiecutter-action/actions/workflows/test.yml)
 
 # cookiecutter-action
