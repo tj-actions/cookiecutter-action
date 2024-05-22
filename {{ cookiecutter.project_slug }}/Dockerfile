@@ -1,4 +1,4 @@
-FROM alpine:3.19.1
+FROM alpine:3.20.0
 
 LABEL maintainer="{{ cookiecutter.full_name }} <{{ cookiecutter.email }}>"
 
