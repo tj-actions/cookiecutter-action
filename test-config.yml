@@ -9,6 +9,6 @@ default_context:
     action_name: "My Test Action"
     version: "v1"
     branding_icon: "hard-drive"
-    action_color: 1
+    action_color: "white"
     open_source_license: 1
 cookiecutters_dir: "./test-project"
