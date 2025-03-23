@@ -10,5 +10,5 @@ default_context:
     version: "v1"
     branding_icon: "hard-drive"
     action_color: "white"
-    open_source_license: 1
+    open_source_license: "MIT license"
 cookiecutters_dir: "./test-project"
